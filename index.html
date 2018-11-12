@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!--<base href="/app">-->
+
+	<title>SMARTMODELS</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<!-- Custom HTML -->
+	<div class="modal">
+		<div class="modal__bg">
+		</div>
+		<div class="modal__form">
+			<p class="feedback__caption">
+				Заполните форму ниже и узнайте
+				стоимость подбора персонала для Вас
+			</p>
+			<form class="feedback__form" id="info-form">
+				<label class="feedback__item">
+					<p class="feedback__label">Ваше имя</p>
+					<input type="text" name="name" class="feedback__input" placeholder="Введите ваше имя или ФИО">
+				</label>
+				<label class="feedback__item">
+					<p class="feedback__label">Ваше телефон</p>
+					<input type="text" name="phone" class="feedback__input" placeholder="+7 (123) 456  78 90">
+				</label>
+				<button class="button">Узнать стоимось подбора</button>
+			</form>
+		</div>
+	</div>
+	<section class="screen screen_main">
+		<header class="header screen__content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xl-2 col-lg-2 col-md-12">
+						<div class="logo">
+							<span class="logo__smart">Smart</span>models
+						</div>
+					</div>
+					<div class="col-xl-8 col-lg-7 col-md-12">
+						<nav class="menu">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link to-services">Наши услуги</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link to-questions">Часто задаваемые вопросы</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link show-modal">Заказать подбор</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xl-2 col-lg-3 col-md-12">
+						<p class="phone">
+							7 <span class="phone__code">(123)</span> 456 78 90
+						</p>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="main" style=" background-image: url('./img/background.jpg'); ">
+				<div class="main__caption">
+					<h1 class="main__title">
+						Профессиональный
+						подбор персонала модельной
+						внешности в Москве
+					</h1>
+					<h3 class="main__description">
+						Для клиентов и проектов,
+						где эстетический вид имеет особое значение
+					</h3>
+					<div class="main__btns">
+						<button class="button button_outlined button_offset to-services">
+							Наши услуги
+						</button>
+						<button class="button show-modal">
+							Заказать подбор
+						</button>
+					</div>
+				</div>
+			</div>
+	</section>
+	<section class="screen screen_padding screen_middle" id="services">
+		<div class="screen__content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="offers">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="offers__item show-modal offers__item_margin_bottom">
+										<div class="offers__overlay">
+											Заказать подбор личного помощника
+										</div>
+										<img class="offers__img" src="./img/image-1.jpg" alt="">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="offers__item offers__item_margin_bottom show-modal">
+										<div class="offers__overlay">
+											Заказать подбор переводчика
+										</div>
+										<img class="offers__img" src="./img/image-2.jpg" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="offers__item show-modal">
+										<div class="offers__overlay">
+											Заказать подбор хостесс, стендистки
+										</div>
+										<img class="offers__img" src="./img/image-3.jpg" alt="">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="offers__item show-modal">
+										<div class="offers__overlay">
+											Заказать подбор модели для награждения
+										</div>
+										<img class="offers__img" src="./img/image-4.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="offers-description">
+							<h2 class="offers-description__title">
+								Подбираем <span class="offers-description__title-blue">персонал модельной
+						внешности</span> на вакансии:
+							</h2>
+							<ul class="offers-description__list">
+								<li class="offers-description__item">
+									личный помощник / бизнес ассистент
+								</li>
+								<li class="offers-description__item">
+									переводчик
+								</li>
+								<li class="offers-description__item">
+									хостесс, стендистка
+								</li>
+								<li class="offers-description__item">
+									модель для награждения
+								</li>
+							</ul>
+							<div class="offers-description__btn">
+								<button class="button show-modal">Заказат подбор</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="screen screen_padding screen_mobile">
+		<div class="screen__content">
+			<div class="container-fluid">
+				<h2 class="offers-description__title offers-description__title_center">
+					Подбираем <span class="offers-description__title-blue">персонал модельной
+						внешности</span> на вакансии:
+				</h2>
+				<div class="offers offers_mobile">
+					<div class="offers-description__item">
+						личный помощник / бизнес ассистент
+					</div>
+					<div class="offers__item">
+						<div class="offers__overlay show-modal">
+							Заказать подбор личного помощника
+						</div>
+						<img class="offers__img " src="./img/image-1.jpg" alt="">
+					</div>
+					<div class="offers-description__item">
+						переводчик
+					</div>
+					<div class="offers__item">
+						<div class="offers__overlay show-modal">
+							Заказать подбор личного помощника
+						</div>
+						<img class="offers__img " src="./img/image-2.jpg" alt="">
+					</div>
+					<div class="offers-description__item">
+						хостесс, стендистка
+					</div>
+					<div class="offers__item">
+						<div class="offers__overlay show-modal">
+							Заказать подбор личного помощника
+						</div>
+						<img class="offers__img " src="./img/image-3.jpg" alt="">
+					</div>
+					<div class="offers-description__item">
+						модель для награждения
+					</div>
+					<div class="offers__item">
+						<div class="offers__overlay show-modal">
+							Заказать подбор личного помощника
+						</div>
+						<img class="offers__img " src="./img/image-4.jpg" alt="">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section class="screen screen_padding screen_bg_gray">
+		<div class="screen__content">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2">
+						<h2 class="title title_rotated">
+							с 2015 года подбираем  персонал Для
+						</h2>
+					</div>
+					<div class="col-md-10">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="adv">
+									<div class="adv__number">1</div>
+									<div>
+										<h3 class="adv__title">Компаний и их руководителей</h3>
+										<p>Cопровождение на деловых встречах и конференциях, помощь в организации мероприятий, организация поездок, планирование рабочего графика, подготовка материалов и т.д</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="adv">
+									<div class="adv__number">2</div>
+									<div>
+										<h3 class="adv__title">Конференций и семинаров</h3>
+										<p>Встреча и регистрация гостей, распространение необходимых материалов, консультация гостей по плану мероприятия и др.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="adv">
+									<div class="adv__number">3</div>
+									<div>
+										<h3 class="adv__title">Рекламных мероприятий</h3>
+										<p>
+											Встреча гостей мероприятия, распространение рекламных материалов, привлечение внимания гостей, фото зоны, консультация потенциальных клиентов и т.д.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="adv">
+									<div class="adv__number">4</div>
+									<div>
+										<h3 class="adv__title">корпоративов и других торжеств</h3>
+										<p>
+											Встреча и рассадка гостей, создание активности на фото зоне, проведение конкурсов, вручение подарков и др.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="screen screen_padding">
+		<div class="screen__content">
+			<div class="container-fluid">
+				<h2 class="title">
+					Главные <span class="title__highlight">преимущества</span> персонала, подбираемого нами
+				</h2>
+				<div class="qualities">
+					<div class="row">
+						<div class="col-lg-4 col-md-12">
+							<div class="qualities__item qualities__item_first">
+								<h3 class="qualities__title">
+									Эстетичность
+								</h3>
+								<div class="qualities__text">
+									<p>
+										Наше агенство «Smart Models» оказывает услуги подбора персонала для постоянной или проектной работы.
+									</p>
+									<p>
+										Наша основная cпециализация - подбор персонала модельной внешности для клиентов и проектов, где эстетический вид имеет особое значение.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<div class="qualities__item">
+								<h3 class="qualities__title">
+									Компетентность
+								</h3>
+								<div class="qualities__text">
+									<p>
+										Наше агенство «Smart Models» оказывает услуги подбора персонала для постоянной или проектной работы.
+									</p>
+									<p>
+										Наша основная cпециализация - подбор персонала модельной внешности для клиентов и проектов, где эстетический вид имеет особое значение.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<div class="qualities__item">
+								<h3 class="qualities__title">
+									Особый подход
+								</h3>
+								<div class="qualities__text">
+									<p>
+										Основной принцип нашей работы - это индивидуальный подход к каждому нашему клиенту.
+									</p>
+									<p>
+										Доверив подбор персонала нашему агентству «Smart Models», вы можете быть уверены в том, что рекомендуемые кандидаты будут соответствовать всем вашим требованиям.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btns-list">
+					<button class="button button_outlined button_offset to-price">Узнать стоимость</button>
+					<button class="button show-modal">Заказать подбор</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="screen screen_padding screen_bg_gray screen_min_height" id="questions">
+		<div class="screen__content">
+			<div class="container-fluid">
+				<h2 class="title">
+					<span class="title__highlight">FAQ</span> | Ответы на часто задаваемые вопросы
+				</h2>
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<div class="questions">
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Как проходит процесс подбора персонала для моего мероприятия / моей компании?
+									</div>
+									<div class="questions__content">
+										Вы оставляете запрос на подбор, с вами связывается сотрудник, подтверждает запрос, уточняет детали. Далее в зависимости от срочности и сложности запросы ведется поиск, отбор, первичное  собеседование, если необходимо,и данные кандидата высылаются на вам на рассмотрение.
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Как быстро проходит процесс подбора?
+									</div>
+									<div class="questions__content">
+										Сроки подбора зависят от запроса.
+										Если нужна модель на разовое мероприятие, то поиск занимает сутки. Если нужно подобрать сотрудника в компанию для постоянной работы, то поиск может занять от недели до шести месяцев.
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Как быстро после обращения я смогу увидеть подобранных вами кандидатов?
+									</div>
+									<div class="questions__content">
+										Вы всегда можете увидеть актуальные анкеты  в нашем телеграмм канале. Для поиска под запрос, вы сможете увидеть первые анкеты в течении 2-3 х дней
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Какие услуги кроме подбора персонала, я смогу получить дополнительно?
+									</div>
+									<div class="questions__content">
+										Дополнительно можем помочь в подготовке модели к мероприятию ( мерк, прическа),оформление необходимых выездных документов, если требуется. Фотосъемка.
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Нам требуются модели для проведения постоянных акций, можем ли мы расчитывать на индивидуальные условия?
+									</div>
+									<div class="questions__content">
+										Для постоянных клиентов всегда предусмотрены особые условия.
+									</div>
+								</div>
+							</div>
+							<div class="questions__item">
+								<div class="questions__icon">
+									<i class="icon ion-md-add"></i>
+								</div>
+								<div class="questions__caption">
+									<div class="questions__head">
+										Как оплатить услуги?
+									</div>
+									<div class="questions__content">
+										Услуги можно оплатить банковским переводом на счет, переводом на карту или наличными.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btns-list">
+					<button class="button button_outlined show-modal">Получить бесплатную консультацию</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="screen screen_padding" id="price">
+		<div class="container">
+			<h2 class="title">Вам <span class="title__highlight">необходим персонал</span> модельной внешности?</h2>
+			<div class="row justify-content-center">
+				<div class="col-lg-4 col-md-8 col-sm-8">
+					<div class="feedback">
+						<p class="feedback__caption">
+							Заполните форму ниже и узнайте
+							стоимость подбора персонала для Вас
+						</p>
+						<form class="feedback__form" id="order-form">
+							<label class="feedback__item">
+								<p class="feedback__label">Какой тип персонала Вам нужен</p>
+								<select class="feedback__select">
+									<option disabled value="" class="feedback__option">Нажмите для выбора вакансии</option>
+									<option value="личный помощник" class="feedback__option">Личный помощник</option>
+									<option value="переводчик" class="feedback__option">Переводчик</option>
+									<option value="хостесс, стендистка" class="feedback__option">Хостесс, стендистка</option>
+									<option value="модель для награждения" class="feedback__option">Модель для награждения</option>
+								</select>
+							</label>
+							<label class="feedback__item">
+								<p class="feedback__label">Ваше имя</p>
+								<input type="text" class="feedback__input" placeholder="Введите ваше имя или ФИО">
+							</label>
+							<label class="feedback__item">
+								<p class="feedback__label">Ваше телефон</p>
+								<input type="text" class="feedback__input" placeholder="+7 (123) 456  78 90">
+							</label>
+							<div class="feedback__btn">
+								<button class="button">Узнать стоимось подбора</button>
+
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo">
+						<span class="logo__smart">Smart</span>models
+					</div>
+				</div>
+				<div class="col-md-6">
+					<p class="footer__text">
+						Работаем ежедневно с 9-00 до 19-00
+					</p>
+				</div>
+				<div class="col-md-3">
+					<p class="phone">
+						7 <span class="phone__code">(123)</span> 456 78 90
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
